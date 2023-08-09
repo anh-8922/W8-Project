@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box; 
+    font-family: 'Kanit', sans-serif;
   }
   
   body {
@@ -124,6 +125,7 @@
     border: 1px solid grey;
     padding: 0.5rem;
     margin: 1rem 0;
+    border-radius: 1rem;
   }
 
   .todo-project ul {
@@ -144,8 +146,9 @@
     width: 100%;
     border: 1px dotted grey;
     border-radius: 0.3rem;
-    
+    background-color: #9ad3de;
     margin-top: 3rem;
+    padding: 0.5rem 0;
   }
 
   .head {
