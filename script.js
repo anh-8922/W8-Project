@@ -25,6 +25,7 @@ function todos() {
     }
     count++;
   }
+  localStorage.clear();
 }
 
 function updateNumbs() {
