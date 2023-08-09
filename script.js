@@ -8,9 +8,9 @@ function todos() {
    data = JSON.parse(localStorage.getItem("mytodo"));
   else {
    data = {
-      todo: ['Maybe this', 'Maybe that', 'Maybe all'],
-      inProgress: ['Anything', 'Somewhat'],
-      done: ['Everything', 'Nothing', 'Something']
+      todo: ['Do shopping', 'Iron clothes', 'Check Emails'],
+      inProgress: ['Apply for jobs', 'Develope Porfolio'],
+      done: ['Final Project', 'Review CV', 'Prepare for interviews']
     };
   }
   localStorage.setItem("mytodo", JSON.stringify(data));
