@@ -28,6 +28,8 @@ function todos() {
   localStorage.clear();
 }
 
+
+
 function updateNumbs() {
   var total, list, proj, i;
   total = document.querySelector('.todo__total-value').innerHTML = document.querySelectorAll('.todo-project__item').length;
