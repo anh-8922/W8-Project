@@ -25,9 +25,12 @@ function todos() {
     }
     count++;
   }
-  localStorage.clear();
+  
 }
-
+const handleClick=()=>{
+  localStorage.clear();
+  window.location.reload();
+}
 
 
 function updateNumbs() {
